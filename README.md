@@ -15,7 +15,7 @@ Clone o repositório:
 
 bash
 Copiar código
-git clone 
+git clone https://github.com/silvatet/Estoque-.git
 cd estoque-simples
 Execute o programa:
 
