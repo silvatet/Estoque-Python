@@ -1,32 +1,28 @@
 # Estoque-UNIFECAF
-Esse é um estudo de caso em Python 
+=====================
 
-Estoque Simples em Python
-Este é um projeto simples de um sistema de controle de estoque em Python. O sistema permite adicionar itens ao estoque, remover itens e exibir o estoque atual.
+## Visão Geral
 
-Funcionalidades
-Adicionar itens ao estoque.
-Remover itens do estoque.
-Exibir o estoque atual.
-Requisitos
-Python 3.x
-Como Usar
-Clone o repositório:
+Este é um estudo de caso em Python que implementa um sistema de controle de estoque simples. O sistema permite adicionar itens ao estoque, remover itens e exibir o estoque atual.
 
-bash
-Copiar código
-git clone https://github.com/silvatet/Estoque-.git
-cd estoque-simples
-Execute o programa:
+## Funcionalidades
 
-bash
-Copiar código
-python estoque.py
-Código de Exemplo
+* **Adicionar itens ao estoque**: permite adicionar novos itens ao estoque com suas respectivas quantidades.
+* **Remover itens do estoque**: permite remover itens do estoque com suas respectivas quantidades.
+* **Exibir o estoque atual**: permite exibir o estoque atual com os itens e suas quantidades.
+
+## Requisitos
+
+* **Python 3.x**: necessário para executar o sistema.
+
+## Como Usar
+
+### Clone o repositório
+
+## Código de Exemplo
+
 Aqui está um exemplo simples de como o estoque é implementado em Python:
-
-python
-Copiar código
+```python
 class Estoque:
     def __init__(self):
         self.itens = {}
